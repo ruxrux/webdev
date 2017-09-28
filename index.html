@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/addons/p5.dom.min.js"></script>
+    <script src="libraries/addons/p5.sound.min.js"></script>
+    
+    <script type="text/javascript" src="libraries/aruco/cv.js"></script> 
+  	<script type="text/javascript" src="libraries/aruco/aruco.js"></script> 
+  	<script type="text/javascript" src="libraries/polyfill.js"></script> 
+    
+    <script src="sketch.js"></script>
+    <style> body {padding: 0; margin: 0;} </style>
+  </head>
+  <body>
+<center>
+    <div style="margin: 10px;"><strong>-= Augmented Reality Marker Detector =-</strong></div>
+    <video id="video" autoplay="true" style="display:none;"></video>
+    <canvas id="canvas" style="width:640px; height:480px;"></canvas>
+    <div style="margin: 15px;"><strong>Powered by <a href="http://code.google.com/p/js-aruco/">js-aruco</a></strong></div>
+  </center>
+  
+  </body>
+</html>
